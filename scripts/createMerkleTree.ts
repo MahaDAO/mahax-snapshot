@@ -70,10 +70,10 @@ fs.createReadStream(csvPath)
               amount: BigNumber.from(Math.floor(Number(data.amounte18)))
                 .mul(e18)
                 .toString(),
-              mahaReward: BigNumber.from(Math.floor(Number(data.sclp_reward)))
+              mahaReward: BigNumber.from(Math.floor(Number(data.maha_reward)))
                 .mul(e18)
                 .toString(),
-              sclpReward: BigNumber.from(Math.floor(Number(data.maha_reward)))
+              sclpReward: BigNumber.from(Math.floor(Number(data.sclp_reward)))
                 .mul(e18)
                 .toString(),
             };
